@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "552060047352",
+    "firebase_url": "https://gps-location-app-7eed0.firebaseio.com",
+    "project_id": "gps-location-app-7eed0",
+    "storage_bucket": "gps-location-app-7eed0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552060047352:android:b632518d9488b3ef",
+        "android_client_info": {
+          "package_name": "me.loie.gpstracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552060047352-pn1veersb67uo7n20qit9kf33jrdjm4m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.loie.gpstracker",
+            "certificate_hash": "1a536a6b1b314400039c27baa2ddee193b2f3759"
+          }
+        },
+        {
+          "client_id": "552060047352-4b2bd7h6c8dbpjuba5tarbh892flj5ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTGb1LmbMJ6VZYl6IRlsAqnYGggIaVRrU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552060047352-4b2bd7h6c8dbpjuba5tarbh892flj5ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212020"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coordinatesTittle"
+        android:layout_above="@+id/coordinatesTxt"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:text="CURRENT GEO COORDINATES:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#890f13"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/coordinatesTxt"
+    android:textSize="17dp"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"
+    android:layout_marginBottom="20dp"
+    android:textColor="#ffff"
+    android:text="..."
+    android:layout_above="@+id/addressTittle"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressTittle"
+        android:layout_above="@+id/addresTxt"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:text="CURRENT ADDRESS:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#890f13"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addresTxt"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffff"
+        android:text="..."
+        android:textAlignment="center"
+        android:layout_above="@+id/speedTittle"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/speedTittle"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:text="CURRENT SPEED:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#890f13"
+        android:layout_above="@+id/speedTxt"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/speedTxt"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffff"
+        android:text="..."
+        android:textAlignment="center"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateLocationBttn"
+        android:text="Update Location"
+        android:textStyle=""
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:layout_below="@+id/speedTxt"
+        android:layout_marginTop="90dp"
+        />
+
+
+
+</RelativeLayout>
